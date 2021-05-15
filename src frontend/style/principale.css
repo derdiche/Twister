@@ -1,0 +1,27 @@
+div#Principale .bouton{
+  position: absolute;
+  right:0px;
+  top: 30px; 
+   cursor: pointer;
+}
+div#Principale .bouton .barre{
+  height: 3px;
+  width: 30px;
+  background-color: black;
+  margin:3px;
+}
+div#Principale .messamis{
+  
+  height: 100%;
+  width: 100%;
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+  background-color: grey;
+}
+#Principale{
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}

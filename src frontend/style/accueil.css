@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.coupe2{
+	position: absolute;
+  background: radial-gradient(#ff0000, #303030);
+  background-attachment: fixed;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 45fr 100fr;
+}
+#droite{
+  background-color:white;
+  
+ 
+}
+#gauche{
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40vh;
+  margin-bottom: 35vh;
+  
+}
+
+p{
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+img.icone{
+  width: 40px;
+  height: 40px;
+
+}
+.ligne{
+  display: flex;
+}
+#menu{
+  box-shadow:  5px 5px 8px black;
+  display: grid;
+  grid-template-columns: 70px 1fr 1fr;
+  width: 100%;
+  background-color: grey;
+  
+}
+img#logo{
+  height: 200px;
+  border-radius: 30%;
+}
+h1{
+  font-size: 50px;
+  padding: 5%;
+  margin: 5%;
+  margin-left: 20%;
+
+}

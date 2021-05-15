@@ -1,0 +1,82 @@
+.messageindividuelle{
+	/*margin: 10px;	
+	padding:2px;
+	background-color: lightblue;
+	border:solid 3px yellow;
+	box-shadow: 5px 5px 8px black;
+    border-radius: 1%;*/
+    position: relative;;   
+    margin: 10px;
+    color:red;
+    background:rgba(0,0,0,.9);
+    padding:15px;
+    border-radius:3px;
+    box-shadow:3px 3px 5px rgba(0,0,0,.5);
+}
+.coeur>img{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    vertical-align:middle;
+    z-index: 1;
+}
+.coeur>p{
+   /* position: absolute;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+.coeur {
+    max-width: auto;
+    max-height: auto;
+    /*display: inline;*/
+    position: relative;
+    text-align: center;
+    color: white;
+    right: 45%;
+    border:solid white 3px;
+  }
+
+
+
+
+  .like  {
+    border: 2px solid #8a8a8a;
+    background-color: transparent;
+    padding: 1rem;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3rem;
+    color: #8a8a8a;
+    transition: all  0.4s;
+    z-index: 0;
+  }
+  .like>span{
+    color: #8a8a8a;
+    z-index: 0;
+  }
+  
+  
+  .like:hover,.like:hover span{
+    transition: all  0.4s;
+    border-color: #cc4b37;
+    color: #cc4b37;
+    background-color: transparent;
+  }
+  
+
+  
+  .like:active,.like:active span {
+    color: #fefefe;
+    background-color: #cc4b37;
+    border-color: #cc4b37;
+  }
+  .like:backdrop,.like:backdrop span {
+    color: greenyellow;
+
+  }
+
+  

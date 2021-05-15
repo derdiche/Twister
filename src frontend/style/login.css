@@ -1,0 +1,14 @@
+.login{
+  padding: 5%;
+  margin: 3%;
+  background-color: black ;
+  opacity: 0.7;
+  border-radius: 2.5%;
+  margin: 5%;
+}
+.login h4{
+  color:red;
+}
+.item{
+  margin: 5px;
+}

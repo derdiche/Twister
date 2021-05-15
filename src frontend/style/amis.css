@@ -1,0 +1,6 @@
+.amis input{
+	width:100%;
+}
+.ami:hover{
+	content: 'Text affiche lors du hover';	  
+}

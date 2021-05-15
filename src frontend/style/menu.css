@@ -1,0 +1,32 @@
+/*.menuprincipalo{
+	text-align:center;
+	padding-top:3%;
+	padding-bottom:2%;
+	color:white;
+	display: grid;
+ 	background-image: linear-gradient(black,red);
+ 	box-shadow: 5px 5px 8px black;
+	grid-template-columns: 1fr 1fr;*/
+	/*min-height:  100px;*/
+	/*min-height:40px;
+}*/
+.menuprincipalf,.menuprincipalo{
+	margin: auto;
+	padding: 10px;
+	text-align:center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-image: linear-gradient(black,red);
+	box-shadow: 5px 5px 8px black;
+	color:white;
+}
+.clikable{
+	cursor: pointer;
+}
+.select{
+	box-shadow: 5px 5px 5px black;
+	border: 3px solid white;
+	border-radius: 5px;
+	
+}
+/*border: solid blue 3px;*/
